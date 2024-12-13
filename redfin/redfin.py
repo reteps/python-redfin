@@ -6,7 +6,7 @@ class Redfin:
     def __init__(self):
         self.base = 'https://redfin.com/stingray/'
         self.user_agent_header = {
-            'user-agent': 'redfin'
+            'user-agent': "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.1 Safari/537.36"
         }
 
     def meta_property(self, url, kwargs, page=False):

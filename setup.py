@@ -4,16 +4,16 @@ import setuptools
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 setup(
-    name="redfin",  # How you named your package folder (MyLib)
-    version="0.1.2",  # Start with a small number and increase it with every change you make
+    name="redfin-lib",  # How you named your package folder (MyLib)
+    version="0.1.0",  # Start with a small number and increase it with every change you make
     license="MIT",  # Chose a license from here: https://help.github.com/articles/licensing-a-repository
     description="A python wrapper around the unofficial redfin API.",  # Give a short description about your library
     long_description=long_description,
     long_description_content_type="text/markdown",
-    author="Peter Stenger",  # Type in your name
+    author="David Reed",  # Type in your name
     packages=setuptools.find_packages(),
-    author_email="peter.promotions.stenger@gmail.com",  # Type in your E-Mail
-    url="https://github.com/reteps/redfin",  # Provide either the link to your github or to your website
+    author_email="dreed10@gmail.com",  # Type in your E-Mail
+    url="https://github.com/dreed47/redfin-lib",  # Provide either the link to your github or to your website
     keywords=["redfin", "api", "wrapper"],  # Keywords that define your package best
     install_requires=["requests"],
     classifiers=[
